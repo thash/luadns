@@ -1,3 +1,7 @@
 -- memerelics.com
 -- _a = mydomain.com
-a(_a, "49.212.134.15")
+ttl = 60 -- for test
+navi_s = "49.212.134.15"
+
+a(_a, navi_s, ttl)
+cname("hoge", _a, ttl)
